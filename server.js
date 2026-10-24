@@ -11,8 +11,8 @@ const IS_VERCEL = !!process.env.VERCEL;
 app.use(express.json({ limit: '10mb' }));
 app.use(cookieParser());
 
-const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL || 'https://iggjmlairsjngweodkfo.supabase.co';
-const SUPABASE_KEY = process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY || 'sb_publishable_vSX6tE4c4shjmdxQyLV7cA_mkea9PkT';
+const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL || 'https://chxngpguhdvkeeroipip.supabase.co';
+const SUPABASE_KEY = process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY || 'sb_publishable_WB20CxfjMsDzxlEJx1JiYg_okIyXazi';
 const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
 
 const ADMIN_USERNAME = 'Admin';
